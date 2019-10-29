@@ -1,0 +1,81 @@
+body {
+  color:rgb(65,75,86);
+  font-family: arial;
+  /* margin:0px; */
+}
+
+div{
+  min-height: 100vh;
+  width: 100vw;
+  /* view port height - adjusts to screen! */
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5em;
+    /* relative to font size - multiply font size by 5 */
+}
+
+h2 {
+  font-size:2.5em;
+}
+
+img {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto; /* puts it in middle */
+    border-radius: 130px; /* how much to round corners - circle in this case */
+  }
+
+p {
+  width: 40 %; /* make it 40 % of div */
+  margin: 10vh 10vw;
+  font-size: 2em;
+}
+
+a /* anker */ {
+  color: rgb(0,0,0);
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin-top: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li#lower{
+  margin-top: 7%;
+}
+
+li#lowest {
+  margin-top: 14%;
+}
+div.contrast{
+  background-color: rgb(0,0,0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+}
+
+li{
+  margin: 20px;
+  transition: 0.6s ease;
+}
+
+li:hover{
+  font-size: 1.2em;
+  transition: 0.6s ease;
+}
